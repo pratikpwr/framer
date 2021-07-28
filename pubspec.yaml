@@ -1,0 +1,32 @@
+name: framer
+description: Add frames to images
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  google_fonts: ^2.1.0
+  flex_color_picker: ^2.1.2
+
+  image_picker: ^0.8.2
+  image: ^3.0.2
+  flutter_local_notifications: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
